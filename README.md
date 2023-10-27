@@ -9,8 +9,6 @@ https://bookshelftesting.netlify.app/
 
 ---
 
-The everyday object I've done my best to copy is a bookshelf with books within.
-
 In this CA I've done my best to make use of the basics within the programming language Javascript to describe an everyday object. The everyday object I've chosen is a bookshelf with books on the shelfs. In the process I've learnt to use the following property types:
 
 - String -> "used to declare author, material, publisher etc."
@@ -41,8 +39,8 @@ books stored on the shelf:
 six books: books 1-6.
 
 --------The Books--------
-There are a total of six books, they all share this properties: title, author, published (date), publisher, genre, pages, prive, currency, available, language.
-The value of these properties varies from book to book, but they all share the same author, currencym language and availability.
+There are a total of six books, they all have these properties: title, author, published (date), publisher, genre, pages, prive, currency, available, language.
+The value of these properties varies from book to book, but they all share the same author, currency, language and availability.
 
 ---
 
