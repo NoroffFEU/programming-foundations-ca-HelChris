@@ -5,7 +5,7 @@
 Course Assignment in programming Foundations.
 Link to live site:
 https://bookshelftesting.netlify.app/
-![Screenshot of the live page](images\screenshot.png)
+![Screenshot of the live page](/images/screenshot.png)
 
 ---
 
