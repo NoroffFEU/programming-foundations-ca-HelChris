@@ -17,7 +17,7 @@ In this CA I've done my best to make use of the basics within the programming la
 
 The object and its properties is as follows,
 
---------The Bookshelf--------
+The Bookshelf:
 material: wood,
 color: brown,
 
@@ -34,7 +34,7 @@ empty: false
 books stored on the shelf:
 six books: books 1-6.
 
---------The Books--------
+The Books:
 There are a total of six books, they all have these properties: title, author, published (date), publisher, genre, pages, price, currency, onShelf, language.
 The value of these properties varies from book to book, but they all share the same author, currency and language.
 
