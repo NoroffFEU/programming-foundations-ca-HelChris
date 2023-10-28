@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Foundations CA</title>
-    <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
-</head>
-
-<body>
-
-    <script src="js/script.js"></script>
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practice: Making Objects</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<div class="bookshelf">
+			<h1>The Singing Bookshelf</h1>
+			<ul id="book-list">
+				<!-- Books will be added here through JavaScript -->
+			</ul>
+		</div>
+		<script>
+			// Display books on the page
+			shelf.books.forEach((book) => {
+				const bookItem = document.createElement("li");
+				bookItem.innerHTML = book.getBookInfo().replace(/\n/g, "<br>");
+				document.getElementById("book-list").appendChild(bookItem);
+			});
+		</script>
+	</body>
 </html>
