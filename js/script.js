@@ -1,4 +1,3 @@
-// Book constructor
 class Book {
     static idCounter = 0; // static counter shared by all Book instances
 
@@ -17,13 +16,12 @@ class Book {
         this.onShelf = onShelf;
         this.language = language;
     }
-    //Adding a method to display book information in a formatted manner
+
     getBookInfo() {
         return `Title: ${this.title}\nAuthor: ${this.author}\nPublished: ${this.published}\nPublisher: ${this.publisher}\nPrice: ${this.price} ${this.currency}\nOnShelf: ${this.onShelf} `;
     }
 }
 
-//create book instances
 const book1 = new Book("The Good Book", "Tim Minchin", 2009, "Ready Books", "History", 300, 200, "NOK", false, "english");
 const book2 = new Book("Rock n Roll Nerd", "Tim Minchin", 2005, "Darkside Books", "Memoir", 777, 300, "NOK", true, "english");
 const book3 = new Book("Not Perfect", "Tim Minchin", 2005, "Darkside Books", "Philosophical", 666, 450, "NOK", true, "english");
@@ -42,12 +40,12 @@ const shelf = {
     height: 150,
     depth: 60,
 
-    //donfiguration
+    //configuration
     numberOfShelves: 4,
     assembled: true,
     empty: false,
 
-    //books stored on the shelf
+    //books
     books: [book1, book2, book3, book4, book5, book6],
 
     addBook: function(book) {
@@ -76,4 +74,3 @@ const shelf = {
         return this.books.reduce((total, book) => total + book.price, 0);
     }
 };
-

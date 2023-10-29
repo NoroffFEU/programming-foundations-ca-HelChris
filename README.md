@@ -5,7 +5,7 @@
 Course Assignment in programming Foundations.
 ![Screenshot of the page](./images/screenshot.png)
 
-In this CA I've done my best to make use of the basics within the programming language Javascript to describe an everyday object. The everyday object I've chosen is a bookshelf with "books" on the shelfs. In the process I've learnt to use the following property types:
+In this CA I've done my best to make use Javascript to describe an everyday object. The everyday object I've chosen is a bookshelf with "books" on the shelfs. In the process I've used the following property types:
 
 - String -> "used to declare author, material, publisher etc."
 - Number -> used to declare dimensions, pages, publication year etc.
